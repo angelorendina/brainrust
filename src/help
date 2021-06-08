@@ -1,0 +1,20 @@
+Rust virtual machine for Brainf*ck
+
+USAGE:
+    brainrust [options] <source>
+
+OPTIONS:
+    -i <file>, --input <file>
+        File read as input for the VM.
+
+    -s <string>, --stream <string>
+        String used inline as input for the VM. Prepended to the input file contents.
+
+    -o <file>, --output <file>
+        File written as output of the VM. Required, unless '--print' flag is set.
+
+    -p, --print
+        Prints the output of the VM to stdout. Required, unless '--output <file>' flag is set.
+
+    -h, --help
+        Prints this information.
